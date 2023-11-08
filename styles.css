@@ -1,5 +1,6 @@
 
 body, html {
+    background-color:#212533;
     height: 100%;
     margin: 0;
     font-family: Arial, sans-serif;
@@ -11,7 +12,7 @@ body, html {
 }
 
 h1 {
-    color: #333;
+    color: #cacfcd;
 }
 
 .form-section {
@@ -21,7 +22,7 @@ h1 {
 input[type="number"] {
     padding: 10px;
     margin-right: 10px;
-    border: 1px solid #ddd;
+    border: 1px solid #201c24;
     border-radius: 4px;
     width: 200px;
 }
@@ -31,7 +32,7 @@ button {
     border: none;
     border-radius: 4px;
     background-color: #5cb85c;
-    color: white;
+    color: #201c24;
     cursor: pointer;
     font-size: 16px;
 }
@@ -46,5 +47,5 @@ button:hover {
 
 .result-section p {
     font-size: 18px;
-    color: #666;
+    color: #cacfcd;
 }
