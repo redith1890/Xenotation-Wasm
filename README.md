@@ -1,4 +1,4 @@
-# Xenotation.github.io
+# Xenotation
 
 transcribe from Arabic numerals to xenotation
 
