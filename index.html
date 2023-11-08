@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Representation App</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="XT_converted.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Number Representation</h1>
+        <div class="form-section">
+            <input type="number" id="numberInput" placeholder="Enter a number..." min="1">
+            <button onclick="displayRepresentation()">Represent</button>
+        </div>
+        <div class="result-section">
+            <p>Representation: <span id="resultOutput"></span></p>
+        </div>
+    </div>
+    <script>
+        function displayRepresentation() {
+            const num = parseInt(document.getElementById('numberInput').value);
+            const primes = find_primes_up_to(num);
+            const representation = represent_number(num, primes);
+            document.getElementById('resultOutput').textContent = representation;
+        }
+    </script>
+</body>
+</html>
