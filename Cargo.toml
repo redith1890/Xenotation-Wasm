@@ -1,0 +1,11 @@
+[package]
+name = "wasm-xt"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+js-sys = "0.3.68"
+wasm-bindgen = "0.2.91"
+
+[lib]
+crate-type = ["cdylib", "rlib"]

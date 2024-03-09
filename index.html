@@ -1,36 +1,28 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
+    <link rel="stylesheet" href="styles.css">
+    <title>My Empty HTML Page</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Number Representation App</title>
-    <link rel="stylesheet" href="styles.css">
-    <script src="XT.js"></script>
-    <script src="XT_converted.js"></script>
 </head>
-<body><!-- GitHub Link Button -->
-<a href="https://github.com/zerowanderer/Xenotation" target="_blank" class="github-link-button">
-   Repository
-</a>
-
-    <div class="container">
-        <h1>Xenotation</h1>
-        <div class="form-section">
-            <input type="number" id="numberInput" placeholder="Enter a number..." min="1">
-            <button onclick="displayRepresentation()">Transcribe</button>
+<body>
+    <a href="https://github.com/zerowanderer/Xenotation" target="_blank" class="github-link-button">
+       Repository
+    </a>
+    
+        <div class="container">
+            <h1>Xenotation</h1>
+            <div class="form-section">
+                <input type="number" id="numberInput" placeholder="Enter a number..." min="1">
+                <button id="buttonId">Transcribe</button>
+            </div>
+            <div class="result-section">
+                <p> <span id="resultOutput"></span></p>
+            </div>
         </div>
-        <div class="result-section">
-            <p> <span id="resultOutput"></span></p>
-        </div>
-    </div>
-    <script>
-        function displayRepresentation() {
-            const num = parseInt(document.getElementById('numberInput').value);
-            const primes = find_primes_up_to(num);
-            const representation = represent_number(num, primes);
-            document.getElementById('resultOutput').textContent = representation;
-        }
-    </script>
+        <script type="module" src="pkg/main.js"></script>    
+    
 </body>
 </html>
+ 

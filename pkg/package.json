@@ -1,0 +1,14 @@
+{
+  "name": "wasm-xt",
+  "version": "0.1.0",
+  "files": [
+    "wasm_xt_bg.wasm",
+    "wasm_xt.js",
+    "wasm_xt.d.ts"
+  ],
+  "module": "wasm_xt.js",
+  "types": "wasm_xt.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
