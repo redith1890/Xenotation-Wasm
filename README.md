@@ -1,8 +1,8 @@
 # Xenotation
-https://zerowanderer.github.io/Xenotation/ <br>
+https://redith1890.github.io/Xenotation/ <br>
 Transcribe from Arabic numerals to xenotation
 
-Inspired by the work of the CCRU, more specifically by Dr Barker's Tic Xenotation  
+Inspired by the work of Dr Barker's Tic Xenotation  
   
 Xenotation is a notation by which any natural number can be expressed without the need for the use of sequentiality or a null positional marker (in Arabic numerals 0). This notation only has 2 symbols. "()" and "·"  
 
