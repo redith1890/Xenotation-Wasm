@@ -1,5 +1,5 @@
 # Xenotation
-https://redith1890.github.io/Xenotation/ <br>
+https://redith1890.github.io/Xenotation-Wasm/ <br>
 Transcribe from Arabic numerals to xenotation
 
 Inspired by the work of Dr Barker's Tic Xenotation  
