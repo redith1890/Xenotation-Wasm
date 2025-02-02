@@ -1,8 +1,6 @@
 # Xenotation
 https://redith1890.github.io/Xenotation-Wasm/ <br>
 Transcribe from Arabic numerals to xenotation
-
-Inspired by the work of Dr Barker's Tic Xenotation  
   
 Xenotation is a notation by which any natural number can be expressed without the need for the use of sequentiality or a null positional marker (in Arabic numerals 0). This notation only has 2 symbols. "()" and "·"  
 
